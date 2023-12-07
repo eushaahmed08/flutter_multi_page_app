@@ -36,6 +36,12 @@ class ProductDetailsPage extends StatelessWidget {
             ),
           ),
           SizedBox(height: 8.0),
+          buildFeature("Model", "Matrice 300 RTK"),
+          buildFeature("Max Transmission", "15 km"),
+          buildFeature("Max Flight Time", "55 min"),
+          buildFeature("Directional Sensing & Positioning", "6"),
+          buildFeature("Primary Flight Display", "Available"),
+          SizedBox(height: 16.0),
           
           
           ElevatedButton(
